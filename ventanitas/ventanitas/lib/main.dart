@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget{
 }
 
 class First extends StatelessWidget{
+    TextEditingController _controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -27,13 +28,18 @@ class First extends StatelessWidget{
                 title: Text("Este debería ser un primer ejemplo"),
             ),
             body: Container(
-                child: Row(
+                child: Column(
                     children: <Widget>[
                         Text('Ola morros'),
+                        TextField(
+                            enabled: true,
+                            maxLength: 20,
+                            controller: _controller,
+                        ),
                         RaisedButton(
                             child: Text('Textoo'),
                             onPressed: (){
-                                Navigator.push(context, MaterialPageRoute(builder: (context) => Second()));
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => Second(msj: _controller.text,)));
                             },
                         )
                     ],
