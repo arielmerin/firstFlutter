@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 void main() {
   runApp(MyApp());
@@ -50,16 +51,20 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  int _counter = 15;
 
-  void _incrementCounter() {
+  int _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter++;
+      _counter--;
+      if (_counter == 0){
+        return -1;
+      }
+      return 0;
     });
   }
 
@@ -98,15 +103,16 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Mira chica. Van: ',
+              'Mira chica. Van: ', style: Theme.of(context).textTheme.headline3, textAlign: TextAlign.left,
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline1,
             ),
             Text(
               'veces que tocas el botón de agregar\n'
-                  'Ya te debiste haber dado cuenta que no sirve pa na jaasjda\nQue tengas mas cuidadooooo ajsjaja'
+                  'Ya te debiste haber dado cuenta que no sirve pa na jaasjda\nQue tengas mas cuidadooooo ajsjaja',
+              style: Theme.of(context).textTheme.headline5,
             )
           ],
         ),
@@ -114,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: Icon(Icons.add),
+        child: Icon(Icons.add_to_home_screen),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
