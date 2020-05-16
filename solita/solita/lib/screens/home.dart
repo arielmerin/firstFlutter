@@ -20,16 +20,17 @@ class _State extends State<Solita>{
             title: "Segundo, como el minuto",
             home: Scaffold(
                 appBar: AppBar(
-                    title: Text('Registro cardiaco $n'),
+                    title: Text('Bjórk, save us, Queen '),
                     leading: Icon(Icons.menu),
                 ),
                 body: Column(
                     children: <Widget>[
-                        Text('hello \n$n', style: Theme.of(context).textTheme.headline1),
+                        Text('Lead her \n$n', style: Theme.of(context).textTheme.headline1, textAlign: TextAlign.center,),
                         RaisedButton(
-                            child: Text("Presionalo"),
+                            child: Text("Stand"),
                             onPressed: incrementar,
-                        )
+                        ),
+                        Image.asset('assets/images/image.jpg')
                     ],
                 ),
             ),
