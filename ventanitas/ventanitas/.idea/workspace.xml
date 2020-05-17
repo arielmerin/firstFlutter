@@ -7,8 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bac731f-e8a6-4ded-b3b6-5549e6720690" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/second.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/second.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../usandoffirebase/ft_firebase/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../usandoffirebase/ft_firebase/ios/Runner/GoogleService-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../usandoffirebase/ft_firebase/lib/page/login_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../usandoffirebase/ft_firebase/lib/page/root_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +68,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

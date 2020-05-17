@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>749666494416-droo5n4m3tlbmgok40gh5n5jgho1l16k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.749666494416-droo5n4m3tlbmgok40gh5n5jgho1l16k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDj9j7bGdvE1hF8M7CH637Qa1Yi0obI8Lo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>749666494416</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.flutter.app.FlutterApplication</string>
+	<key>PROJECT_ID</key>
+	<string>appsear-1997</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appsear-1997.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:749666494416:ios:322865be4c277133727bd5</string>
+	<key>DATABASE_URL</key>
+	<string>https://appsear-1997.firebaseio.com</string>
+</dict>
+</plist>
